@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_marginTop="20dp"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ADB8B8"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginBottom="3dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtGioChuyenDi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="9:00-12:00"
+                android:textColor="#009688"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDiemDi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Điểm đi: Hồ Chí Minh"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDiemDen"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Điểm đi: Cam Ranh"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtSoLuongCho"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Số chỗ: 2"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtSoXe"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Biển số xe: 59LD-12345"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtViTriGhe"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Vị trí: C1"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtGiaVe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="40dp"
+                android:text="500$"
+                android:paddingLeft="10dp"
+                android:textColor="#FFEB3B"
+                android:textSize="25dp"
+                android:textStyle="italic|bold" />
+
+            <Button
+                android:id="@+id/btnHuyVe"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Hủy Vé" />
+            <TextView
+                android:id="@+id/txtGioDat"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:text="02-Dec-2022 11:32:04 AM"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

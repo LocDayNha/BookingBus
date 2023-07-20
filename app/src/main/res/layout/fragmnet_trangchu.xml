@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/trangchu_fragmenttt"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="10dp"
+        android:text="Menu"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgSearchBusinMain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/searchbus" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="195dp"
+        android:text="Search Bus"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="195dp"
+        android:text="Map Bus"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="355dp"
+        android:text="History Bock Bus"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="267dp"
+        android:layout_marginTop="355dp"
+        android:text="ProFile"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="515dp"
+        android:text="FeedBack"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="515dp"
+        android:text="Reset Pass"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgMapBusinMain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/mapbus" />
+
+    <ImageView
+        android:id="@+id/imgHistoryBusinMain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/history" />
+
+    <ImageView
+        android:id="@+id/imgProfileinMain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/profileeee" />
+
+    <ImageView
+        android:id="@+id/imgNewsinMain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="410dp"
+        android:src="@drawable/feedback" />
+
+    <ImageView
+        android:id="@+id/doipass"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="410dp"
+        android:src="@drawable/doipas" />
+
+    <ImageView
+        android:id="@+id/imgExitinMain"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="590dp"
+        android:src="@drawable/exit" />
+
+
+
+
+</FrameLayout>

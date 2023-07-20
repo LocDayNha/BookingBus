@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mTrangChu"
+        android:title="Trang Chủ"
+        android:icon="@drawable/ic_home" />
+
+    <item android:id="@+id/mDatVe"
+        android:title="Đặt Vé"
+        android:icon="@drawable/ic_bus" />
+
+    <item android:id="@+id/mThongTinVeXe"
+        android:title="Vé Xe Đã Đặt"
+        android:icon="@drawable/ticket" />
+
+    <item android:id="@+id/mThongTinTramXe"
+        android:title="Thông Tin Trạm Xe"
+        android:icon="@drawable/ic_location2" />
+
+    <item android:id="@+id/mTinTuc"
+        android:title="Tin Tức"
+        android:icon="@drawable/ic_news"/>
+
+    <item android:title="Người dùng">
+        <menu>
+            <item android:id="@+id/mThongTinNguoiDung"
+                android:title="Thông Tin Người Dùng "
+                android:icon="@drawable/ic_person"
+                />
+            <item android:id="@+id/mFeedBack"
+                android:title="Hổ trợ người dùng "
+                android:icon="@drawable/ic_feedback_24"
+                />
+            <item android:id="@+id/mDoiPass"
+                android:title="Đổi Mật Khẩu "
+                android:icon="@drawable/ic_pass_24"
+                />
+            <item android:id="@+id/mThoat"
+                android:title="Thoát"
+                android:icon="@drawable/ic_exit"
+                />
+        </menu>
+    </item>
+
+
+
+</menu>
